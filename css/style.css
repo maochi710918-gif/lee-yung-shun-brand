@@ -563,6 +563,10 @@ section[id]{scroll-margin-top:88px;}
 .contact-title{font-size:clamp(1.8rem,4vw,3rem);font-weight:700;line-height:1.35;}
 .contact-sub{margin:26px auto 0;max-width:520px;font-size:1rem;color:var(--c-on-dark-muted);line-height:1.9;}
 .contact-actions{margin-top:44px;display:flex;gap:18px;justify-content:center;flex-wrap:wrap;}
+.contact-info{
+  margin-top:36px;display:flex;flex-direction:column;gap:8px;
+  font-size:.86rem;color:var(--c-on-dark-faint);letter-spacing:.01em;
+}
 
 /* ============================================================
    FOOTER
