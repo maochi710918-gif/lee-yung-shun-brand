@@ -252,16 +252,16 @@ section[id]{scroll-margin-top:88px;}
 }
 .portrait-frame::after{
   content:"";position:absolute;inset:0;
-  background:linear-gradient(180deg, rgba(11,11,12,0) 45%, rgba(11,11,12,.55) 100%),
-             linear-gradient(100deg, rgba(20,20,30,.35), rgba(169,137,90,.08));
+  background:linear-gradient(180deg, rgba(11,11,12,0) 55%, rgba(11,11,12,.4) 100%),
+             linear-gradient(100deg, rgba(20,20,30,.16), rgba(169,137,90,.06));
   mix-blend-mode:normal;
 }
 .portrait-frame img{
   width:100%;height:100%;object-fit:cover;object-position:50% 18%;
-  filter:grayscale(.55) contrast(1.08) brightness(.96);
+  filter:grayscale(.4) contrast(1.05) brightness(1.28);
   transition:filter .6s var(--ease-soft), transform .8s var(--ease);
 }
-.hero-portrait:hover .portrait-frame img{filter:grayscale(.15) contrast(1.08) brightness(1);transform:scale(1.02);}
+.hero-portrait:hover .portrait-frame img{filter:grayscale(.1) contrast(1.05) brightness(1.32);transform:scale(1.02);}
 .portrait-caption{
   position:absolute;left:-1px;bottom:22px;
   background:rgba(11,11,12,.72);
